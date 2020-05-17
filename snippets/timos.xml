@@ -10,8 +10,8 @@
           fetch="https://github.com/PixelExperience-Devices"
           revision="ten" />
 
-  <remote name="timhkleung"
-          fetch="https://github.com/timhkleung"
+  <remote name="timleunghk"
+          fetch="https://github.com/timleunghk"
           revision="master" />
 
   <remote name="pixel-gitlab"
@@ -71,7 +71,7 @@
   <!-- General repos -->
   <project path="art" name="art" remote="pixel" />
   <project path="bionic" name="bionic" remote="pixel" />
-  <project path="build/make" name="timos_build" remote="timhkleung">
+  <project path="build/make" name="timos_build" remote="timleunghk">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -90,7 +90,7 @@
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
   <project path="manifest" name="manifest" remote="pixel" />
   <project path="platform_testing" name="platform_testing" remote="pixel" />
-  <project path="vendor/aosp" name="vendor_aosp" remote="timhkleung" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="timleunghk" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel" />
   <project path="vendor/google-customization" name="vendor_google-customization" remote="pixel" />
@@ -127,7 +127,7 @@
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixel" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
-  <project path="packages/apps/Launcher3" name="packages_services_Launcher3" remote="timhkleung" />
+  <project path="packages/apps/Launcher3" name="packages_services_Launcher3" remote="timleunghk" />
   <!-- External repos -->
   <project path="external/libcxx" name="external_libcxx" remote="pixel" />
   <project path="external/libhevc" name="external_libhevc" remote="pixel" />

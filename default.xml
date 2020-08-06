@@ -8,7 +8,7 @@
   <remote name="github"
           fetch="https://github.com/" />
 
-  <default revision="refs/tags/android-10.0.0_r37"
+  <default revision="refs/tags/android-10.0.0_r40"
            remote="aosp"
            sync-j="4"
            sync-c="true"
@@ -80,6 +80,7 @@
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" clone-depth="1" />
   <project path="device/google/wahoo" name="device/google/wahoo" groups="device,generic_fs,wahoo" />
   <project path="device/google/wahoo-kernel" name="device/google/wahoo-kernel" groups="device,generic_fs,wahoo" clone-depth="1" />
+  <project path="device/google_car" name="device/google_car" groups="pdk" />
   <project path="device/linaro/bootloader/arm-trusted-firmware" name="device/linaro/bootloader/arm-trusted-firmware" />
   <project path="device/linaro/bootloader/edk2" name="device/linaro/bootloader/edk2" />
   <project path="device/linaro/bootloader/OpenPlatformPkg" name="device/linaro/bootloader/OpenPlatformPkg" />
@@ -586,6 +587,7 @@
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
@@ -796,6 +798,6 @@
   <include name="snippets/lineage.xml" />
 
   <!-- Add all PixelExperience repos -->
-  <include name="snippets/timos.xml" />
+  <include name="snippets/pixel.xml" />
 
 </manifest>

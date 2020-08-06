@@ -797,7 +797,7 @@
   <!-- Add some LineageOS repos -->
   <include name="snippets/lineage.xml" />
 
-  <!-- Add all PixelExperience repos -->
+  <!-- Add all TimOS repos -->
   <include name="snippets/timos.xml" />
 
 </manifest>
